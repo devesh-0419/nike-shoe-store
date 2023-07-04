@@ -5,9 +5,9 @@ const Signup = () => {
   return (
     <>
       <div
-        className={` fixed top-0 left-0 right-0 bottom-0 blur-effect-theme w-full h-screen opacity-100 z-[250] grid items-center justify-items-center`}
+        className={` fixed top-0 left-0 right-0 bottom-0 blur-effect-theme w-full h-screen opacity-100 z-[250] grid items-center justify-items-center `}
       >
-        <div className="absolute bg-theme w-[30%] h-[70%] sm:w-[25rem] sm:h-[30rem] rounded-lg">
+        <div className="absolute bg-theme w-[25rem] h-[70%]  sm:w-[20rem] xsm:w-[15rem] rounded-lg shadow shadow-slate-600">
           <div className="">
             <button
               type="button"
@@ -24,11 +24,11 @@ const Signup = () => {
 
           <form
             action=""
-            className="flex flex-col items-start justify-center h-[70%]"
+            className="flex flex-col items-start justify-center h-[70%] sm:text-sm xs:text-xs"
           >
             <label
               htmlFor="username"
-              className="block m-4 uppercase font-bold text-slate-200"
+              className="block m-4 uppercase font-bold text-slate-200 " 
             >
               UserName
             </label>
@@ -65,10 +65,10 @@ const Signup = () => {
 
             <button
               type="submit"
-              className=" bg-blue-400 px-2.5 py-1 rounded mx-4 mt-7 border border-blue-800"
+              className=" bg-blue-400 px-2.5 py-1 rounded mx-4 mt-7 border border-blue-800 shadow shadow-slate-800"
             >
               <Link to="/signup">
-                <h1 className=" font-semibold text-slate-200">Signup</h1>
+                <h1 className=" font-semibold text-slate-200 ">Signup</h1>
               </Link>
             </button>
 

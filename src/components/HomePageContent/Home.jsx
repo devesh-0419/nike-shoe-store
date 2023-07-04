@@ -1,6 +1,6 @@
 import React from 'react'
-import  Clips  from "./utils/Clips.jsx";
-import SocialLinks from './utils/SocialLinks.jsx';
+import  Clips  from "../utils/Clips.jsx";
+import SocialLinks from '../utils/SocialLinks.jsx';
 
 const Home = ({homeapi:{title, subtitle, btntext, img, videos, sociallinks}}) => {
 

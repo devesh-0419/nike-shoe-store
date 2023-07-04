@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react'
-import {setCloseCart, selectCartState, selectCartItems, setClearItemQTY, selectTotalAmount,selectTotalQuantity, setGetTotal}from '../app/CartSlice.js'
-import CartCount from "./cart/CartCount";
-import CartItem from "./cart/CartItem";
-import CartEmpty from "./cart/CartEmpty";
+import {setCloseCart, selectCartState, selectCartItems, setClearItemQTY, selectTotalAmount,selectTotalQuantity, setGetTotal}from '../../app/CartSlice.js'
+import CartCount from "../cart/CartCount.jsx";
+import CartItem from "../cart/CartItem.jsx";
+import CartEmpty from "../cart/CartEmpty.jsx";
 import { useDispatch, useSelector } from 'react-redux';
 
 const Cart = () => {

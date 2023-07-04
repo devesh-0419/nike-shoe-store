@@ -1,8 +1,9 @@
 import React from 'react'
 import { MagnifyingGlassIcon, HeartIcon, ShoppingBagIcon } from "@heroicons/react/24/outline";
 import {useDispatch,useSelector} from 'react-redux'
-import logo from '../assets/logo.png'
-import { setOpenCart,selectTotalQuantity } from '../app/CartSlice';
+import logo from '../../assets/logo.png'
+import { setOpenCart,selectTotalQuantity } from '../../app/CartSlice';
+import {Link}from 'react-router-dom'
 const Navbar = () => {
 
 
@@ -34,11 +35,12 @@ const Navbar = () => {
                     <div className={` absolute right-0 top-4 bg-white to-slate-900 w-4 h-4 text=[0.65rem] leading-tight font-medium rounded-full flex items-center justify-center cursor-pointer hover:scale-110 transition-all duration-300`}>{totalQuantity}</div>
                   </button>
                 </li>
-                {/* <li className='grid items-center'>
+                <li className='grid items-center'>
                   <button type='button' className=' border-none outline-none active:scale-110 transition-all duration-300 relative'>
-                    <div className='button-theme bg-gradient-to-t from-gray-500 to-gray-50'>Login</div>
+                   <Link to='/login'> <div className='button-theme bg-gradient-to-t from-gray-500 to-gray-50 p-1.5'><h1 className='font-semibold text-xs'>Login</h1></div>
+                   </Link>
                   </button>
-                </li> */}
+                </li>
             </ul>
         </nav>
     </header>

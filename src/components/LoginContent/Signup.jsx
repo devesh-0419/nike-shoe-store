@@ -63,14 +63,14 @@ const Signup = () => {
               placeholder="Password"
             />
 
+<Link to="/signup">
             <button
               type="submit"
               className=" bg-blue-400 px-2.5 py-1 rounded mx-4 mt-7 border border-blue-800 shadow shadow-slate-800"
             >
-              <Link to="/signup">
                 <h1 className=" font-semibold text-slate-200 xsm:text-xs">Signup</h1>
-              </Link>
             </button>
+              </Link>
 
             {/* <a href="#" className=' text-xs mx-4 text-blue-900'>forgot password?</a> */}
           </form>

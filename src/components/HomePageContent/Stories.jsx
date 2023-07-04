@@ -1,5 +1,5 @@
 import React from 'react'
-import Title from './utils/Title'
+import Title from '../utils/Title'
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/react-splide/css';
 import {HeartIcon,ClockIcon,HashtagIcon} from '@heroicons/react/24/solid';

@@ -37,7 +37,7 @@ const Navbar = () => {
                 </li>
                 <li className='grid items-center'>
                   <button type='button' className=' border-none outline-none active:scale-110 transition-all duration-300 relative'>
-                   <Link to='/login'> <div className='button-theme bg-gradient-to-t from-gray-500 to-gray-50 p-1.5'><h1 className='font-semibold text-xs'>Login</h1></div>
+                   <Link to='/signup'> <div className='button-theme bg-gradient-to-t from-gray-500 to-gray-50 p-1.5'><h1 className='font-semibold text-xs'>SignUp</h1></div>
                    </Link>
                   </button>
                 </li>
